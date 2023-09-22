@@ -63,8 +63,8 @@
          } else if (itemId == R.id.logout) {
              // Handle the "logout" menu item
              mAuth.signOut();
-//                   Intent intent = new Intent(MainActivity.this,SignInActivity.class);
-//                   startActivity(intent);
+             Intent intent = new Intent(MainActivity.this,SignInActivity.class);
+             startActivity(intent);
          }
 
 //        switch (itemId){
