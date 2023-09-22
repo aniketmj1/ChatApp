@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/w1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_whatsapp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/txtemail"
+            android:hint="Email"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+            android:id="@+id/txtpassword"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/signinreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Register"
+            android:gravity="right"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInbtn"
+            android:text="SignIn"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

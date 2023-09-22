@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id = "@+id/settings"
+        android:title="Settings"/>
+
+    <!-- Second menu item with ID "groupChat" and title "Group Chat" -->
+    <item android:id="@+id/groupChat"
+        android:title="Group Chat"/>
+
+    <!-- Third menu item with ID "logout" and title "Logout" -->
+    <item android:id="@+id/logout"
+        android:title="Logout"/>
+
+    <!-- First menu item with ID "settings" and title "Settings" -->
+
+
+
+
+</menu>
